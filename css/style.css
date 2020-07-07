@@ -7,6 +7,9 @@ h1{
     text-align: center;
     color: #f5f5f5;
 }
+body, html {
+    height: 100%;
+}
 body{
     background-image: url('iamge/page-background.jpg');
     background-position: center;
@@ -29,11 +32,15 @@ main{
 table{
     display: inline;
 }
-#table ,tr , th ,td {
+#table {
     
     
     border: solid black;
     float: right;
+
+}
+td, tr ,th {
+    border: solid;
 }
 #userform{
     float: left;
