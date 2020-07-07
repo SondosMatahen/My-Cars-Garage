@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Garagi</h1>
+    </header>
+    <main>
+        <div id="first">
+        <form id="userform">
+            <fieldset>
+                <label for="carModel">Car Model</label>
+                <br>
+                <input id="carModel" type="text">
+                <br>
+                <label for="ModelYear">Model Year</label>
+                <br>
+                <input id="ModelYear" type="number">
+
+
+                <br>
+                <label for="manu">Manufacturer</label>
+                <br>
+                <input id="manu" list="manuList">
+                <datalist id="manuList">
+                    <option>Germany</option>
+                    <option>korea</option>
+                    <option>Japan</option>
+                    <option>France</option>
+                    <option>USA</option>
+                </datalist>
+                <br>
+                <br>
+                <input id="submit" type="submit">
+            </fieldset>
+        </form>
+    </div>
+      
+      
+        <div id="sec">
+            <table id="table">
+                <tr> 
+                    <th> Car Model </th>
+                    <th> Model Year </th>
+                    <th> Price </th>
+                    <th> Car Manufacturer </th>
+                    <th>Remove</th>
+                </tr>
+                <tbody id="tBody">
+                    <form id='out'>
+
+                    </form>
+                </tbody>
+            </table>
+           
+        </div>
+
+
+    </main>
+    <footer>
+        <script src="js/app.js"></script>
+    </footer>
+
+
+</body>
+
+</html>

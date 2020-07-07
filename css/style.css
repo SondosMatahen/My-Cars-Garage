@@ -1,0 +1,42 @@
+header{
+    height: 50px;
+    background-color: #1F1F1F;
+    ;
+}
+h1{
+    text-align: center;
+    color: #f5f5f5;
+}
+body{
+    background-image: url('iamge/page-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+main{
+    display: grid;
+}
+#first{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 20%;
+}
+#sec{
+   margin-top: 0em;
+    width: 60%;
+}
+table{
+    display: inline;
+}
+#table ,tr , th ,td {
+    
+    
+    border: solid black;
+    float: right;
+}
+#userform{
+    float: left;
+
+}
+
